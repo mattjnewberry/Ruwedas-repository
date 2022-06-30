@@ -10,7 +10,11 @@ export default function App() {
             <header className="app-header">
                 <h1>Dream Stays</h1>
             </header>
+<<<<<<< HEAD
             <h2>London hotels</h2>
+=======
+                <h2>London<h2>
+>>>>>>> fb0bdc8b3d45e7aa07f59f3516eebba84684777a
             <div className="container">
                 {stays.map((stay) => {
 
