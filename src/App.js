@@ -10,6 +10,7 @@ export default function App() {
             <header className="app-header">
                 <h1>Dream Stays</h1>
             </header>
+            <h2>London hotels</h2>
             <div className="container">
                 {stays.map((stay) => {
 
