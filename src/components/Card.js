@@ -19,7 +19,7 @@ function Card(cardData) {
         <div className="card">
             <h1 className="card-header"> {cardData.name} </h1>
             <img className="card-header-img" alt={cardData.alt} src={cardData.img}/>
-            <p className="card-body"> {hotelPrice} </p>
+            <p className="card-body"> {cardData.price} </p>
             <p className="card-body"> {cardData.description} </p>
             <Link to={cardData.id}>
                 <button className="card-button">View More</button>

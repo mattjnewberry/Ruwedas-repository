@@ -24,6 +24,7 @@
 
 .card-header {
   font-size: 15px;
+  color: green;
 }
 
 .card-header-img {
@@ -47,4 +48,8 @@
   background-color: #3662d8;
   color: #ffffff;
   border-radius: 0.5rem;
+}
+
+p {
+  color:green;
 }

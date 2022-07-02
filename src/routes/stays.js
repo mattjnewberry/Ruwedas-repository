@@ -9,7 +9,7 @@ export default function Stay() {
   return stay ? (
     <div className="app">
       <header className="app-header">
-        <h1>Dream Stays</h1>
+        <h1>Marrakesh hotels</h1>
       </header>
       <img className="stay-img" alt={stay.name} src={stay.img} />
       <h2>{stay.name}</h2>
@@ -17,8 +17,11 @@ export default function Stay() {
       <h3>Activities:</h3>
       <p className="activities">{stay.activities}</p>
       <h3>Star Ratings:</h3>
-      <p className="rating">{stay.rating}</p>
-      
+      <p className ="rating">{stay.rating}</p>
+      <h3>Reviews : </h3>
+      <p className = "reviews ">{stay.review}</p>
+      <p className = "reviews ">{stay.review2}</p>
+
     </div>
   ) : (
     <></>
